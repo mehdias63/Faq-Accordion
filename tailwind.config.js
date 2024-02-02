@@ -10,6 +10,7 @@ export default {
         "Light-Pink": "#F8EEFF",
         "Dark-Purple": "#301534",
         "Pale-Purple": "#8B6990",
+        "Pink": "#AD28EB",
       },
     },
   },

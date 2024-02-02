@@ -8,12 +8,13 @@ export default function Accordion({ text, title }) {
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="flex gap-14 items-center justify-center md:gap-10 lg:gap-2">
-        <h1 className="text-base font-semibold lg:text-lg text-Dark-Purple my-4">
+        <h1 className="text-base font-semibold lg:text-lg text-Dark-Purple my-4 hover:text-Pink cursor-pointer">
           {title}
         </h1>
         <img
           src={`/images/icon-${isOpen ? "minus" : "plus"}.svg`}
           className="ml-auto"
+          alt="plus"
         />
       </div>
       {isOpen && (

@@ -7,10 +7,10 @@ export default {
     },
     extend: {
       colors: {
-        "Light-Pink": "#F8EEFF",
-        "Dark-Purple": "#301534",
-        "Pale-Purple": "#8B6990",
-        "Pink": "#AD28EB",
+        "light-pink": "#F8EEFF",
+        "dark-purple": "#301534",
+        "pale-purple": "#8B6990",
+        "pink": "#AD28EB",
       },
     },
   },

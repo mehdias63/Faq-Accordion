@@ -6,7 +6,7 @@ export default function Card() {
     <div className="bg-white w-[37.5rem] p-8 rounded-lg lg:rounded-2xl shadow-[0_32px_56px_0px_rgba(80,0,118,0.10)]">
       <div className="flex items-center gap-4 ">
         <img src="/images/icon-star.svg" className="w-6 lg:w-10" alt="icon" />
-        <h1 className="text-[2rem] font-bold lg:text-[3.5rem] text-Dark-Purple">
+        <h1 className="text-[2rem] font-bold lg:text-[3.5rem] text-dark-purple">
           FAQs
         </h1>
       </div>
